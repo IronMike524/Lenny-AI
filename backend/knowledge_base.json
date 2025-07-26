@@ -2,27 +2,27 @@
   "faqs": [
     {
       "question": "¿Qué es INGELEAN S.A.S.?",
-      [cite_start]"answer": "INGE LEAN S.A.S. es una empresa de ingeniería con sede en Pereira, fundada en 2013. Nos especializamos en brindar soluciones a medida en software, hardware, automatización industrial, inteligencia artificial y mantenimiento. [cite: 4]"
+      "answer": "INGE LEAN S.A.S. es una empresa de ingeniería con sede en Pereira, fundada en 2013. Nos especializamos en brindar soluciones a medida en software, hardware, automatización industrial, inteligencia artificial y mantenimiento."
     },
     {
       "question": "¿Cuál es la misión de la empresa?",
-      [cite_start]"answer": "Nuestra misión es impulsar la eficiencia y competitividad de procesos industriales y comerciales en el Eje Cafetero. [cite: 5]"
+      "answer": "Nuestra misión es impulsar la eficiencia y competitividad de procesos industriales y comerciales en el Eje Cafetero."
     },
     {
       "question": "¿Qué problema resuelve este reto del chatbot?",
-      "answer": "Actualmente, enfrentamos un reto en nuestro canal de atención al cliente: los tiempos de respuesta son largos y las interacciones poco personalizadas. [cite_start]El objetivo es mejorar la eficiencia, reducir tiempos de espera y evitar la pérdida de oportunidades comerciales. [cite: 6, 7]"
+      "answer": "Actualmente, enfrentamos un reto en nuestro canal de atención al cliente: los tiempos de respuesta son largos y las interacciones poco personalizadas. El objetivo es mejorar la eficiencia, reducir tiempos de espera y evitar la pérdida de oportunidades comerciales."
     },
     {
       "question": "¿Cuáles son los servicios principales que ofrecen?",
-      [cite_start]"answer": "Ofrecemos un portafolio de soluciones tecnológicas que incluye: desarrollo de software a medida, diseño de hardware, proyectos de automatización industrial, implementación de inteligencia artificial y servicios de mantenimiento especializado. [cite: 4]"
+      "answer": "Ofrecemos un portafolio de soluciones tecnológicas que incluye: desarrollo de software a medida, diseño de hardware, proyectos de automatización industrial, implementación de inteligencia artificial y servicios de mantenimiento especializado."
     },
     {
       "question": "¿Para qué tipo de clientes trabajan?",
-      [cite_start]"answer": "Trabajamos principalmente con empresas del sector industrial y comercial en el Eje Cafetero que buscan optimizar sus procesos y mejorar su competitividad a través de la tecnología. [cite: 5]"
+      "answer": "Trabajamos principalmente con empresas del sector industrial y comercial en el Eje Cafetero que buscan optimizar sus procesos y mejorar su competitividad a través de la tecnología."
     },
     {
       "question": "¿Qué tecnologías de inteligencia artificial utilizan?",
-      [cite_start]"answer": "Utilizamos una variedad de tecnologías de IA, incluyendo procesamiento de lenguaje natural (NLP) para sistemas conversacionales como este, análisis de datos para obtener métricas de desempeño, y modelos de machine learning para soluciones de automatización. [cite: 11]"
+      "answer": "Utilizamos una variedad de tecnologías de IA, incluyendo procesamiento de lenguaje natural (NLP) para sistemas conversacionales como este, análisis de datos para obtener métricas de desempeño, y modelos de machine learning para soluciones de automatización."
     },
     {
       "question": "¿Cómo puedo solicitar una cotización o asesoría?",
@@ -34,11 +34,11 @@
     },
     {
       "question": "¿Qué es la trazabilidad que menciona el reto?",
-      "answer": "La trazabilidad, en el contexto de este reto, se refiere a la capacidad de registrar y seguir cada interacción del usuario con el chatbot. [cite_start]Esto nos permite analizar conversaciones, entender las necesidades del cliente y mejorar continuamente el servicio. [cite: 11]"
+      "answer": "La trazabilidad, en el contexto de este reto, se refiere a la capacidad de registrar y seguir cada interacción del usuario con el chatbot. Esto nos permite analizar conversaciones, entender las necesidades del cliente y mejorar continuamente el servicio."
     },
     {
       "question": "¿Cuál es el objetivo general del chatbot Lenny AI?",
-      [cite_start]"answer": "El objetivo de Lenny AI es diseñar un sistema de atención al cliente que automatice, personalice y escale las interacciones con INGE LEAN, mejorando la experiencia del usuario y la eficiencia de nuestro equipo. [cite: 11]"
+      "answer": "El objetivo de Lenny AI es diseñar un sistema de atención al cliente que automatice, personalice y escale las interacciones con INGE LEAN, mejorando la experiencia del usuario y la eficiencia de nuestro equipo."
     },
     {
       "question": "¿Ofrecen soporte técnico para sus soluciones?",
