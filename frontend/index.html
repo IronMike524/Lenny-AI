@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenny AI - Asistente de INGELEAN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="login-overlay">
+        <div id="login-box">
+            <h2>Bienvenido a Lenny AI</h2>
+            <p>Asistente virtual de <strong>INGE LEAN S.A.S.</strong></p>
+            <form id="login-form">
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+                <input type="text" id="cedula" placeholder="Ingresa tu cédula (ID)" required>
+                <button type="submit">Ingresar al Chat</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="chat-container" class="hidden">
+        <header class="chat-header">
+            <h1>Lenny AI</h1>
+            <a href="metrics.html" class="metrics-link">Ver Métricas</a>
+        </header>
+        <div id="messages">
+            </div>
+        <div class="typing-indicator hidden" id="typing-indicator">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Escribe tu consulta aquí..." autocomplete="off">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métricas - Lenny AI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="metrics-page">
+        <header class="chat-header">
+            <h1>Métricas de Desempeño de Lenny AI</h1>
+            <a href="index.html" class="metrics-link">Volver al Chat</a>
+        </header>
+
+        <div id="metrics-container">
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <h3>Mensajes Totales</h3>
+                    <p id="total-messages">--</p>
+                </div>
+                <div class="kpi-card">
+                    <h3>Usuarios Únicos</h3>
+                    <p id="unique-users">--</p>
+                </div>
+                <div class="kpi-card">
+                    <h3>Tiempo de Respuesta Promedio</h3>
+                    <p id="avg-response-time">-- ms</p>
+                </div>
+            </div>
+
+            <div class="details-grid">
+                <div class="chart-container">
+                    <h3>Top 5 Temas Consultados</h3>
+                    <canvas id="top-intents-chart"></canvas>
+                </div>
+                <div class="list-container">
+                    <h3>Última Intención por Usuario</h3>
+                    <ul id="user-intents-list">
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/metrics.js"></script>
+</body>
+</html>
