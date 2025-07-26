@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIGURACIÓN ---
-    // !!! CAMBIA ESTA URL POR LA URL DE TU BACKEND EN RENDER !!!
-    const API_URL = 'http://127.0.0.1:5000'; // URL de prueba local
+    const API_URL = 'https://lenny-ai-a9dx.onrender.com'; // URL de prueba local
 
     // --- ELEMENTOS DEL DOM ---
     const totalMessagesEl = document.getElementById('total-messages');
