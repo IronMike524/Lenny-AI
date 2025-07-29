@@ -3,44 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Métricas - Lenny AI</title>
+    <title>Dashboard de Métricas - Lenny AI</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div id="metrics-page">
         <header class="chat-header">
-            <h1>Métricas de Desempeño de Lenny AI</h1>
-            <a href="index.html" class="metrics-link">Volver al Chat</a>
+            <h1>Dashboard de Métricas de Lenny AI</h1>
+            <a href="index.html" class="metrics-link">← Volver al Chat</a>
         </header>
 
         <div id="metrics-container">
-            <div class="kpi-grid">
-                <div class="kpi-card">
-                    <h3>Mensajes Totales</h3>
-                    <p id="total-messages">--</p>
+            <section class="kpi-section">
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-icon">💬</div>
+                        <div class="kpi-content">
+                            <h3>Mensajes Totales</h3>
+                            <p id="total-messages" class="kpi-value">--</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">👥</div>
+                        <div class="kpi-content">
+                            <h3>Usuarios Únicos</h3>
+                            <p id="unique-users" class="kpi-value">--</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">⚡</div>
+                        <div class="kpi-content">
+                            <h3>Tiempo de Respuesta Prom.</h3>
+                            <p id="avg-response-time" class="kpi-value">-- ms</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="kpi-card">
-                    <h3>Usuarios Únicos</h3>
-                    <p id="unique-users">--</p>
-                </div>
-                <div class="kpi-card">
-                    <h3>Tiempo de Respuesta Promedio</h3>
-                    <p id="avg-response-time">-- ms</p>
-                </div>
-            </div>
+            </section>
 
-            <div class="details-grid">
-                <div class="chart-container">
-                    <h3>Top 5 Temas Consultados</h3>
-                    <canvas id="top-intents-chart"></canvas>
+            <section class="charts-section">
+                 <div class="chart-container">
+                    <h3>🔥 Top 5 Temas Más Consultados</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="top-intents-chart"></canvas>
+                    </div>
                 </div>
-                <div class="list-container">
-                    <h3>Última Intención por Usuario</h3>
-                    <ul id="user-intents-list">
-                        </ul>
+            </section>
+
+             <section class="data-section">
+                <div class="data-container">
+                    <h3>👤 Última Intención Registrada por Usuario</h3>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Cédula del Usuario</th>
+                                    <th>Última Intención Resumida</th>
+                                </tr>
+                            </thead>
+                            <tbody id="user-intents-tbody">
+                                </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
 
